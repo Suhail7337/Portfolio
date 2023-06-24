@@ -1,0 +1,78 @@
+.project-card {
+    display: flex;
+    justify-content: center;
+    margin: 14px 0px;
+   
+    
+  }
+  
+  .project-img {
+    background-position: center;
+    background-size: cover;
+    height: 170px;
+    width: 100%;
+    
+  }
+  .project-img img{
+    width: 86%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .project-title{
+    text-align: left;
+    margin-left: 34px;
+  }
+.project-title h3{
+  font-family: 'Righteous', sans-serif;
+  max-width: 337px;
+}
+.project-desc{
+  margin: 10px 23px;
+}
+.project-desc p {
+  font-family: 'Righteous', sans-serif;
+  letter-spacing: 0.04px;
+  font-size: 13px;
+  text-align: left;
+  color: #788192;
+}
+.project-links{
+  padding: 40px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  left: 10px;
+  
+}
+
+.project-links a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  
+}
+.project-links a span{
+  font-size: 12px;
+}
+.link1{
+  box-sizing: border-box;
+  font-family: 'Righteous', sans-serif;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0px 5px;
+  background: linear-gradient(90deg, rgba(128,73,216,1) 0%, rgba(26,168,200,1) 50%);
+  box-shadow: 10px 10px 54px -12px rgba(204,51,204,1);
+
+
+}
+.link2{
+  font-family: 'Righteous', sans-serif;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.link2:hover{
+  background-color: black;
+  
+}

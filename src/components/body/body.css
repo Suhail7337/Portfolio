@@ -1,0 +1,94 @@
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding: 20px;
+    width: 100%;
+}
+.body-info h2{
+    font-size: 40px;
+    max-width: 400px;
+}
+.body-info p{
+    margin-top: 20px;
+    max-width: 360px;
+}
+.body-info a{
+    display: block;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: fit-content;
+    padding: 16px 26px;
+    background: linear-gradient(90deg, rgba(141,96,213,1) 0%, rgba(26,168,200,1) 50%);
+    box-shadow: 10px 10px 54px -12px rgba(204,51,204,1);
+    /* background-color: white; */
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+.body-info h2 span{
+
+    background: -webkit-linear-gradient(#8049d8, #1aa8c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.one{
+     position: relative;
+     top: -11px;
+     left: -270px;
+     /* border: 2px solid white; */
+     border-radius: 50%;
+     background: rgba(0,0,0,0);
+     color: white;
+     width: 400px;
+     height: 400px;
+     text-align: center;
+     line-height: 100px;
+     /* margin-left: -232px; */
+     background: linear-gradient(90deg, rgba(141,96,213,1) 0%, rgba(26,168,200,1) 50%);
+     z-index: -1;
+}
+.one::after{
+    position: absolute;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    content: "";
+    background-color: #000d1a;
+    border-radius: 50%;
+}
+.body-profile{
+    position: relative;
+}
+.two{
+    top: 50px;
+    right: 160px;
+    border:2px solid rgb(128,73,216);
+    border-radius:50%;
+    background: linear-gradient(90deg, rgba(128,73,216,1) 0%, rgba(26,168,200,1) 50%);
+    color:white;
+    width:170px;
+    height:170px;
+    text-align:center;
+    line-height:100px;
+    position: absolute;
+}
+.three{
+  position: absolute;
+  left: -52px;
+  top: -70px;
+  border:2px solid rgb(128,73,216);
+  border-radius:50%;
+  background-image: url(../../assets/suhail.jpg);
+  background-position:  -85px -90px;
+  color:white;
+  width:250px;
+  height:250px;
+  text-align:center;
+  line-height:100px;
+}
