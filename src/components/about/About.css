@@ -1,0 +1,61 @@
+.about{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    /* background-color: gray; */
+}
+.about-container{
+    width: 100%;
+    margin: 10px 40px;
+    display: grid;
+    grid-template-columns: 21% 21% 21%;
+}
+.about-year{
+    
+    padding: 50px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.about-year h5{
+    font-size: 30px;
+    margin: 10px;
+    font-family: 'Righteous', sans-serif;
+
+}
+.about-circle{
+    /* position: relative; */
+     top: -11px;
+     left: -270px;
+     /* border: 2px solid white; */
+     border-radius: 50%;
+     background: rgba(0,0,0,0);
+     color: white;
+     width: 14px;
+     height: 14px;
+     /* text-align: center; */
+     /* line-height: 100px; */
+     /* margin-left: -232px; */
+     background: linear-gradient(90deg, rgba(141,96,213,1) 0%, rgba(26,168,200,1) 50%);
+     /* z-index: -1; */
+     margin-left: 10px;
+     
+}
+.about-border{
+    border: 3px solid white;
+    width: 200px;
+    margin-left: 23px;
+    margin-top: -9px;
+}
+.about-para{
+    max-width: 360px;
+    display: flex;
+    align-items: center;
+    margin-left: 62px;
+    margin-top: -38px;
+
+}
+.about-para p{
+    font-size: 14px;
+}

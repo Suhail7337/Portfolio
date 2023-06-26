@@ -11,7 +11,7 @@ function Body() {
         <div className="body-info">
             <h2><span>Hello,I'm Suhail,</span> Web Developer</h2>
             <p>seeking to apply competent developent skills with focus on collaboration,communication,and passion</p>
-            <a href="/cv.pdf" download>Download CV</a>
+            <a href="/SuhailResume.pdf" download>Download CV</a>
         </div>
         <div className="body-profile">
             <div className="one"> </div>

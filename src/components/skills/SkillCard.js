@@ -8,7 +8,7 @@ function SkillCard({skill,i}) {
     <div class="box">
 			<div class={"percent" +i}>
 				<svg>
-					<motion.circle cx="70" cy="70" r="70"></motion.circle>
+					<circle cx="70" cy="70" r="70"></circle>
 					{/* <circle cx="70" cy="70" r="70"></circle> */}
 				</svg>
 					<div class="number">
