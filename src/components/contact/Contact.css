@@ -1,0 +1,74 @@
+.contact{
+    padding: 50px;
+    /* margin-bottom: 50px; */
+}
+.contact-text{
+    font-size: 34px;
+    font-weight: 900;
+    margin: 4rem 0rem 1.5rem;
+    position: relative;
+}
+article{
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.article p {
+   
+    margin-top: 0.6rem;
+    line-height: 2;
+    font-weight: 400;
+    
+}
+.contact-input{
+    background: transparent;
+    margin-bottom: 2rem;
+    resize: none;
+    margin: 10px 10px;
+    text-align: left;
+    
+}
+form{
+    margin: 0px 50px;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #14202b;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: transparent;
+    color: #ccc;
+  }
+  input:hover{
+    background-color: black;
+  }
+  textarea{
+    width: 50%;
+    height: 50%;
+    padding: 35px 20px;
+    margin: 8px 10px;
+    border: 1px solid #14202b;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: transparent;
+    color: #ccc;
+    resize: none;
+    
+}
+textarea:hover{
+    background-color: black;
+}
+.contact-btn{
+    padding: 30px;
+    width: 100%;
+    margin: 0px -20px;
+}
+.btn-msg{
+    width: 25%;
+    padding: 18px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}

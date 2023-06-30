@@ -5,6 +5,7 @@ import Body from '../components/body/body'
 import Project from '../components/projects/Project'
 import Skills from '../components/skills/Skills'
 import About from '../components/about/About'
+import Contact from '../components/contact/Contact'
 
 
 
@@ -12,7 +13,7 @@ import About from '../components/about/About'
 function Home() {
   return (
     <div className='home'>
-      <section>
+      <section className='header'>
         <Header/>
       </section>
         
@@ -25,8 +26,11 @@ function Home() {
         <section className="skills" id='skills'>
           <Skills/>
         </section>
-        <section className="about">
+        {/* <section className="about" id='about'>
           <About/>
+        </section> */}
+        <section>
+          <Contact/>
         </section>
     </div>
   )

@@ -16,8 +16,12 @@ function ProjectCard({project}) {
           <p>{project.about}</p>
         </div>
         <div className="project-links">
-          <a className='link1' href="">Live Preview</a>
-          <a className='link2' href="https://github.com/Suhail7337/netflix-clone.git">Check on Github</a>
+          {project.livepreview&& (
+          <a className='link1' href={project.livepreview}>Live Preview</a>
+          )}
+          {project.github&& (
+          <a className='link2' href={project.github}>Check on Github</a>
+          )}
         </div>
     </>
   )
