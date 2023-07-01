@@ -29,7 +29,7 @@ function Home() {
         {/* <section className="about" id='about'>
           <About/>
         </section> */}
-        <section>
+        <section id='contact'>
           <Contact/>
         </section>
     </div>

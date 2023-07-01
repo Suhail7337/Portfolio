@@ -7,10 +7,12 @@ function Contact() {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        alert("Message sent")
     
         emailjs.sendForm('service_zibvr6d', 'template_jitvroh', form.current, 'ihs1FGbAS11Ydt2u4')
           .then((result) => {
               console.log(result.text);
+              
           }, (error) => {
               console.log(error.text);
           });

@@ -16,7 +16,7 @@ function Header() {
         <a href="#skills">Skills</a>
         </div>
         <div className='header-option'>
-        <a href="#about">About me</a>
+        <a href="#contact">Contact</a>
         </div>
       </div>
       <div className="header-icons">

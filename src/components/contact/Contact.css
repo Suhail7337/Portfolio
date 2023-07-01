@@ -64,6 +64,7 @@ textarea:hover{
     padding: 30px;
     width: 100%;
     margin: 0px -20px;
+    
 }
 .btn-msg{
     width: 25%;
@@ -71,4 +72,6 @@ textarea:hover{
     border-radius: 8px;
     font-size: 15px;
     cursor: pointer;
+    background: linear-gradient(90deg, rgba(128,73,216,1) 0%, rgba(26,168,200,1) 50%);
+    color: #ccc;
 }
